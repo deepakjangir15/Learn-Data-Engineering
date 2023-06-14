@@ -13,4 +13,4 @@ services:
       test: ["CMD","pd_isready","-U", "airflow"]
       interval: 5s
       retries: 5
-    restart: always
+    restart: always 
